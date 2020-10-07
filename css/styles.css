@@ -35,6 +35,13 @@ hr {
   margin: 75px auto;
 }
 
+.aws-ch {
+  border: dotted #79adad65 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 20px auto;
+}
+
 .container-fluid{
   padding: 1% 15%;
 }
@@ -79,6 +86,11 @@ hr {
 .intro {
   width: 50%;
   margin: auto;
+}
+
+.ch-intro {
+  width: 50%;
+  margin: 30px auto;
 }
 
 .contact-me {
@@ -129,3 +141,19 @@ hr {
   text-decoration: none;
   color: #ffffff;
 } 
+
+.collapse-link {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+}
+
+.collapse-link:hover {
+  text-decoration: none;
+  color: #ff4c68;
+}
+
+.text-decor-none {
+    text-decoration: none !important;
+}
